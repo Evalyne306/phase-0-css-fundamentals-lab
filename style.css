@@ -1,5 +1,94 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+}
+h1 {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+img {
+  width: 70%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  text-align: center;
+}
+ 
+
+.lorem {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+ 
+}
+.ipsum{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  
+}
+ul {
+  background: #929ab6;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto;
+  width: 700px;
+}
+
+li {
+  display: inline;
+}
+
+li:last-child a {
+  border: none;
+}
+
+a {
+  float: left;
+  padding: 10px 12px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+a:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+div {
+  float: left;
+  padding: 10px 25px;
+  
+}
+a {
+  float: left;
+  padding: 10px 20px;
+  color: rgb(255, 249, 249);
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  border-right: 1px solid rgba(255,255,255,0.1);
+}
+#details {
+  float: left;
+  
+  color: rgb(10, 9, 9);
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  background: #f83504
 }
