@@ -50,7 +50,7 @@ li:last-child a {
   border: none;
 }
 
-a {
+/* a {
   float: left;
   padding: 10px 12px;
   color: #fff;
@@ -58,7 +58,7 @@ a {
   font-weight: bold;
   text-align: center;
   border-right: 1px solid rgba(255,255,255,0.1);
-}
+} */
 
 a:hover {
   background: rgba(255,255,255,0.1);
@@ -74,21 +74,24 @@ div {
   padding: 10px 25px;
   
 }
-a {
+ nav a{
   float: left;
   padding: 10px 20px;
-  color: rgb(255, 249, 249);
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: bold;
   text-align: center;
   border-right: 1px solid rgba(255,255,255,0.1);
 }
 #details {
-  float: left;
-  
+  height: 200px;
+  width: 100%;
   color: rgb(10, 9, 9);
   text-decoration: none;
   font-weight: bold;
   text-align: center;
   background: #f83504
+
+}
+#details div{
+  width: 20%;
 }
